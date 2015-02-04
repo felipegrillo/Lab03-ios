@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		FFA03C331A82E48E0068635C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C321A82E48E0068635C /* main.m */; };
 		FFA03C361A82E48E0068635C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C351A82E48E0068635C /* AppDelegate.m */; };
-		FFA03C391A82E48E0068635C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C381A82E48E0068635C /* ViewController.m */; };
+		FFA03C391A82E48E0068635C /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C381A82E48E0068635C /* Home.m */; };
 		FFA03C3C1A82E48E0068635C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFA03C3A1A82E48E0068635C /* Main.storyboard */; };
 		FFA03C3E1A82E48E0068635C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFA03C3D1A82E48E0068635C /* Images.xcassets */; };
 		FFA03C411A82E48E0068635C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA03C3F1A82E48E0068635C /* LaunchScreen.xib */; };
 		FFA03C4D1A82E48E0068635C /* Lab03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C4C1A82E48E0068635C /* Lab03Tests.m */; };
+		FFA03C571A82E4AC0068635C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA03C561A82E4AC0068635C /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,15 @@
 		FFA03C321A82E48E0068635C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FFA03C341A82E48E0068635C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FFA03C351A82E48E0068635C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FFA03C371A82E48E0068635C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FFA03C381A82E48E0068635C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFA03C371A82E48E0068635C /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		FFA03C381A82E48E0068635C /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		FFA03C3B1A82E48E0068635C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFA03C3D1A82E48E0068635C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFA03C401A82E48E0068635C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FFA03C461A82E48E0068635C /* Lab03Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab03Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFA03C4B1A82E48E0068635C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA03C4C1A82E48E0068635C /* Lab03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab03Tests.m; sourceTree = "<group>"; };
+		FFA03C561A82E4AC0068635C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA03C571A82E4AC0068635C /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		FFA03C241A82E48E0068635C = {
 			isa = PBXGroup;
 			children = (
+				FFA03C561A82E4AC0068635C /* libsqlite3.dylib */,
 				FFA03C2F1A82E48E0068635C /* Lab03 */,
 				FFA03C491A82E48E0068635C /* Lab03Tests */,
 				FFA03C2E1A82E48E0068635C /* Products */,
@@ -83,8 +87,8 @@
 			children = (
 				FFA03C341A82E48E0068635C /* AppDelegate.h */,
 				FFA03C351A82E48E0068635C /* AppDelegate.m */,
-				FFA03C371A82E48E0068635C /* ViewController.h */,
-				FFA03C381A82E48E0068635C /* ViewController.m */,
+				FFA03C371A82E48E0068635C /* Home.h */,
+				FFA03C381A82E48E0068635C /* Home.m */,
 				FFA03C3A1A82E48E0068635C /* Main.storyboard */,
 				FFA03C3D1A82E48E0068635C /* Images.xcassets */,
 				FFA03C3F1A82E48E0068635C /* LaunchScreen.xib */,
@@ -219,7 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFA03C391A82E48E0068635C /* ViewController.m in Sources */,
+				FFA03C391A82E48E0068635C /* Home.m in Sources */,
 				FFA03C361A82E48E0068635C /* AppDelegate.m in Sources */,
 				FFA03C331A82E48E0068635C /* main.m in Sources */,
 			);
