@@ -15,6 +15,7 @@
 		FFA03C411A82E48E0068635C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFA03C3F1A82E48E0068635C /* LaunchScreen.xib */; };
 		FFA03C4D1A82E48E0068635C /* Lab03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C4C1A82E48E0068635C /* Lab03Tests.m */; };
 		FFA03C571A82E4AC0068635C /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA03C561A82E4AC0068635C /* libsqlite3.dylib */; };
+		FFA03C5C1A82ECBA0068635C /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA03C5B1A82ECBA0068635C /* DBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,9 @@
 		FFA03C4B1A82E48E0068635C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFA03C4C1A82E48E0068635C /* Lab03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab03Tests.m; sourceTree = "<group>"; };
 		FFA03C561A82E4AC0068635C /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FFA03C5A1A82ECBA0068635C /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		FFA03C5B1A82ECBA0068635C /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		FFA03C5D1A82EF880068635C /* usuario.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = usuario.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,9 @@
 		FFA03C241A82E48E0068635C = {
 			isa = PBXGroup;
 			children = (
+				FFA03C5D1A82EF880068635C /* usuario.sqlite */,
+				FFA03C5A1A82ECBA0068635C /* DBManager.h */,
+				FFA03C5B1A82ECBA0068635C /* DBManager.m */,
 				FFA03C561A82E4AC0068635C /* libsqlite3.dylib */,
 				FFA03C2F1A82E48E0068635C /* Lab03 */,
 				FFA03C491A82E48E0068635C /* Lab03Tests */,
@@ -226,6 +233,7 @@
 				FFA03C391A82E48E0068635C /* Home.m in Sources */,
 				FFA03C361A82E48E0068635C /* AppDelegate.m in Sources */,
 				FFA03C331A82E48E0068635C /* main.m in Sources */,
+				FFA03C5C1A82ECBA0068635C /* DBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +424,7 @@
 				FFA03C521A82E48E0068635C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFA03C531A82E48E0068635C /* Build configuration list for PBXNativeTarget "Lab03Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +433,7 @@
 				FFA03C551A82E48E0068635C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
