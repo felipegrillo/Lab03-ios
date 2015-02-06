@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "sqlite3.h"
 
-@interface DBManager : NSObject
+@interface DBManager : NSObject{
+    int id;
+    NSString *estado;
+    
+    NSString *nombre;
+}
+
 
 @end

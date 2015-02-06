@@ -9,5 +9,9 @@
 #import "DBManager.h"
 
 @implementation DBManager
+: NSObject {
+
+
+}
 
 @end
